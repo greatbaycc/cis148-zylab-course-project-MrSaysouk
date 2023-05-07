@@ -1,17 +1,36 @@
 package cp_9_03;
 
 public class Team {
-    // TODO: Declare private fields - teamName, teamWins, teamLosses
+    private String teamName;
+    private int teamWins;
+    private int teamLosses;
 
+    public Team() {
+    }
 
-    // TODO: Define mutator methods -
-    //       setTeamName(), setTeamWins(), setTeamLosses()
+    public void setTeamName(String name) {
+        teamName = name;
+    }
+    public void setTeamWins(int wins) {
+        teamWins = wins;
+    }
+    public void setTeamLosses(int losses) {
+        teamLosses = losses;
+    }
 
+    public String getTeamName() {
+        return teamName;
+    }
+    public int getTeamWins() {
+        return teamWins;
+    }
+    public int getTeamLosses() {
+        return teamLosses;
+    }
 
-    // TODO: Define accessor methods -
-    //       getTeamName(), getTeamWins(), getTeamLosses()
-
-
-    // TODO: Define getWinPercentage()
+    public double getWinPercentage() {
+        double winPercent = (double)teamWins / (teamWins + teamLosses);
+        return winPercent;
+    }
 
 }

@@ -6,10 +6,19 @@ public class FoodItem {
     private double carbs;
     private double protein;
 
-    // TODO: Define default constructor
+    public FoodItem() {
+        name = "None";
+        fat = 0.0;
+        carbs = 0.0;
+        protein = 0.0;
+    }
 
-    // TODO: Define second constructor with arguments to initialize
-    //       private fields (name, fat, carbs, protein)
+    public FoodItem(String itemName, double amountFat, double amountCarbs, double amountProtein) {
+        name = itemName;
+        fat = amountFat;
+        carbs = amountCarbs;
+        protein = amountProtein;
+    }
 
     public String getName() {
         return name;

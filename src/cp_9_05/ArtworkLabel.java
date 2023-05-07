@@ -17,10 +17,10 @@ public class ArtworkLabel {
         userTitle = scnr.nextLine();
         yearCreated = scnr.nextInt();
 
-        //Artist userArtist = new Artist(userArtistName, userBirthYear, userDeathYear);
+        Artist userArtist = new Artist(userArtistName, userBirthYear, userDeathYear);
 
-        //Artwork newArtwork = new Artwork(userTitle, yearCreated, userArtist);
+        Artwork newArtwork = new Artwork(userTitle, yearCreated, userArtist);
 
-        //newArtwork.printInfo();
+        newArtwork.printInfo();
     }
 }

@@ -12,7 +12,7 @@ public class WinningTeam {
         int wins = scanner.nextInt();
         int losses = scanner.nextInt();
 
-        /*
+
         team.setTeamName(name);
         team.setTeamWins(wins);
         team.setTeamLosses(losses);
@@ -25,6 +25,5 @@ public class WinningTeam {
             System.out.println("Team " + team.getTeamName() +
                     " has a losing average.");
         }
-         */
     }
 }

@@ -1,18 +1,32 @@
 package cp_9_05;
 
 public class Artwork {
-    // TODO: Declare private fields - title, yearCreated
+    private String title;
+    private int yearCreated;
+    private Artist artist;
 
-    // TODO: Declare private field artist of type Artist
+    public Artwork() {
+        title = "None";
+        yearCreated = 0;
+    }
 
-    // TODO: Define default constructor
+    public String getTitle() {
+        return title;
+    }
+    public int getYearCreated() {
+        return yearCreated;
+    }
 
-    // TODO: Define get methods: getTitle(), getYearCreated()
+    public Artwork(String userTitle, int inputYear, Artist userArtist) {
+        title = userTitle;
+        yearCreated = inputYear;
+        artist = userArtist;
+    }
 
-    // TODO: Define second constructor to initialize
-    //       private fields (title, yearCreated, artist)
-
-    // TODO: Define printInfo() method
+    public void printInfo() {
+        artist.printInfo();
+        System.out.println("Title: " + title + ", " + yearCreated);
+    }
 
 }
 

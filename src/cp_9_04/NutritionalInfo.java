@@ -13,7 +13,7 @@ public class NutritionalInfo {
         double amountCarbs = scnr.nextDouble();
         double amountProtein = scnr.nextDouble();
 
-        //FoodItem foodItem2 = new FoodItem(itemName, amountFat, amountCarbs, amountProtein);
+        FoodItem foodItem2 = new FoodItem(itemName, amountFat, amountCarbs, amountProtein);
 
         double numServings = scnr.nextDouble();
 
@@ -23,10 +23,9 @@ public class NutritionalInfo {
 
         System.out.println("\n");
 
-        /*
         foodItem2.printInfo();
         System.out.printf("Number of calories for %.2f serving(s): %.2f\n", numServings,
                 foodItem2.getCalories(numServings));
-         */
+
     }
 }

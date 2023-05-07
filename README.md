@@ -1,8 +1,8 @@
 # CIS148 COURSE PROJECT
 ## FALL 2022 #
 
-- Name:
-- Date:
+- Name: Tyler Saysouk
+- Date: 5/6/2023
 - zyLAB Challenges to be completed:
   - 9.01 - Triangle Area Comparison
   - 9.02 - Car Value
